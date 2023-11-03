@@ -20,7 +20,7 @@ class Program
 
     static async Task Main()
     {
-        botClient = new TelegramBotClient("6773179616:AAHNxE7GcZmYf1HhpEYh-KLLP12VnZwAO8Y");
+        botClient = new TelegramBotClient("your_bot_token");
         botClient.OnMessage += Bot_OnMessage;
         botClient.OnCallbackQuery += Bot_OnCallbackQuery;
         botClient.StartReceiving();
